@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflinty_mirror_site=self.webpackChunkflinty_mirror_site||[]).push([[775],{5834:function(t){t.exports=JSON.parse('{"permalink":"/flinty-mirror-site/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
