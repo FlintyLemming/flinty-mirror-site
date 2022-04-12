@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '免费，无广告',
+    title: '免费无广告',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -22,12 +22,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '简洁干净',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        镜像仅进行简单 Repack，无植入信息
       </>
     ),
   },
