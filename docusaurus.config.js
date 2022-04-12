@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Flinty Mirror Site',
-  tagline: 'Pure Experience',
+  tagline: 'Apple 镜像和其他',
   url: 'https://mirror.flinty.moe',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Flinty Mirror Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -53,7 +53,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Mirrors',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -67,46 +67,38 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '站内导航',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Mirrors',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '关于',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Blog',
+                href: 'https://blog.mitsea.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/FlintyLemming/flinty-mirror-site',
               },
             ],
           },
           {
-            title: 'More',
+            title: '友情链接',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Docusaurus',
+                to: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
